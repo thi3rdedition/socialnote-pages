@@ -89,7 +89,7 @@ li + li {
 }
 
 .lead {
-  max-width: 850px;
+  max-width: none;
   color: var(--muted);
   font-size: 17px;
 }
