@@ -1,12 +1,12 @@
 :root {
   color-scheme: light;
-  --bg: #f7f3ed;
-  --surface: #fffdfa;
-  --text: #27221d;
-  --muted: #746a60;
-  --line: #e7ded4;
+  --bg: #fbfbfa;
+  --surface: #ffffff;
+  --text: #23211f;
+  --muted: #6d6862;
+  --line: #e6e2dd;
   --accent: #df7b4c;
-  --accent-soft: #f6e4d8;
+  --accent-soft: #fff4ed;
 }
 
 * {
@@ -21,20 +21,20 @@ html {
 
 body {
   margin: 0;
-  line-height: 1.65;
+  line-height: 1.62;
 }
 
 main {
-  width: min(860px, calc(100% - 32px));
+  width: min(1040px, calc(100% - 40px));
   margin: 0 auto;
-  padding: 56px 0 72px;
+  padding: 32px 0 52px;
 }
 
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin: 28px 0 36px;
+  gap: 8px;
+  margin: 24px 0 30px;
 }
 
 a {
@@ -45,8 +45,8 @@ a {
 nav a {
   display: inline-flex;
   align-items: center;
-  min-height: 40px;
-  padding: 0 14px;
+  min-height: 38px;
+  padding: 0 13px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: var(--surface);
@@ -56,25 +56,31 @@ nav a {
 }
 
 h1 {
-  margin: 0 0 10px;
-  font-size: clamp(34px, 6vw, 54px);
-  line-height: 1.08;
+  margin: 0 0 12px;
+  font-size: clamp(34px, 5vw, 48px);
+  line-height: 1.12;
   letter-spacing: 0;
 }
 
 h2 {
-  margin: 36px 0 12px;
-  font-size: 22px;
+  margin: 30px 0 10px;
+  font-size: 21px;
   line-height: 1.25;
   letter-spacing: 0;
 }
 
+h3 {
+  margin: 22px 0 7px;
+  font-size: 17px;
+  line-height: 1.35;
+}
+
 p {
-  margin: 0 0 14px;
+  margin: 0 0 11px;
 }
 
 ul {
-  margin: 0 0 18px;
+  margin: 0 0 14px;
   padding-left: 22px;
 }
 
@@ -83,24 +89,24 @@ li + li {
 }
 
 .lead {
-  max-width: 680px;
+  max-width: 850px;
   color: var(--muted);
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .card {
-  margin-top: 20px;
-  padding: 22px;
+  margin-top: 18px;
+  padding: 20px 22px;
   border: 1px solid var(--line);
-  border-radius: 16px;
+  border-radius: 14px;
   background: var(--surface);
 }
 
 .notice {
-  margin-top: 28px;
-  padding: 18px 20px;
+  margin-top: 26px;
+  padding: 16px 18px;
   border: 1px solid #ebc7b4;
-  border-radius: 14px;
+  border-radius: 12px;
   background: var(--accent-soft);
 }
 
@@ -113,7 +119,7 @@ li + li {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
   color: var(--muted);
   font-weight: 700;
 }
@@ -126,8 +132,8 @@ li + li {
 }
 
 footer {
-  margin-top: 46px;
-  padding-top: 20px;
+  margin-top: 36px;
+  padding-top: 18px;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 14px;
